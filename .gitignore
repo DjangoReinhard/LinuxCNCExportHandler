@@ -1,0 +1,9 @@
+*.bak
+*.class
+*~
+bin/*
+build/*
+test/*
+testBin/*
+rednose
+summary.txt
