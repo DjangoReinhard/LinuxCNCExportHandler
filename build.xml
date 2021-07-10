@@ -36,7 +36,7 @@
     </target>
 
     <target name = "clean" description = "clean output directories">
-        <delete>
+        <delete failonerror="false">
             <fileset dir = "${build.dir}">
                 <include name = "**/*.class"/>
             </fileset>
